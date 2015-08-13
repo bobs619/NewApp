@@ -7,11 +7,11 @@ namespace NewApp.Controllers
     {
         public ActionResult Index()
         {
-            string bob = "dog";
+            var bob = "dog";
 
-            if (string.IsNullOrWhiteSpace(bob){
+            if (string.IsNullOrWhiteSpace(bob)){
                 Console.Out.WriteLine("yo");
-            })
+            }
 
             return View();
         }
